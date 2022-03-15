@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/style.css">
+    <script src="script.js" defer></script>
+    <title>Gaming</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav__bar">
+            <span>Grisha's game</span>
+            <div class="nav__info-block">
+                <ul class="nav__info">
+                    <li>TicTacToe</li>
+                    <li>Rating</li>
+                    <li>Players</li>
+                </ul>
+            </div>
+            <div class="nav__btn-block">
+                <ul class="nav__btn">
+                    <li>#</li>
+                    <li>#</li>
+                    <li>#</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="header__menu">
+                <a href="#">menu</a>
+            </div>
+            <span class="size">Size: 3 x 3</span>
+        </div>
+    </header>
+    
+    <main class="main">
+        <h2 class="main__move cross">Score: <span class="main__move-scoreCross"></span></h2>
+        <div class="main__block">
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+            <div class="main__block-li hover" data-cell></div>
+        </div> 
+        <h2 class="main__move null">Score: <span class="main__move-scoreNull"></span></h2>
+    </main>
+    <section class="winning-message" id="winningMessage">
+        <div data-winning-message-image class="grishaImageDraw"></div>
+        <button id="restartButton">Restart</button>
+    </section>
+
+    <!-- <section class="greeting-message" id="greetingMessage">
+
+        
+            <nav class="nav__bar">
+                <span>Grisha's game</span>
+                <div class="nav__info-block">
+                    <ul class="nav__info">
+                        <li>TicTacToe</li>
+                        <li>Rating</li>
+                        <li>Players</li>
+                    </ul>
+                </div>
+                <div class="nav__btn-block">
+                    <ul class="nav__btn">
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                    </ul>
+                </div>
+            </nav>
+      
+
+
+            <div class="container">
+                <div class="greeting-message-block">
+                    <h3 class="greeting-block-title">Hi, Dear players! Are you ready?</h3>
+                
+                    <p class="greeting-block-rules">Just enter your name on the input line!</p>
+                    <div class="greeting-block-image"></div>
+                    <button class="greeting-block-btn">Push</button>
+                </div>
+            </div>
+
+    </section> -->  
+    <!-- Greeting message -->
+
+
+</body>
+</html>
